@@ -1,0 +1,188 @@
+Wellcome 
+Microsoft Windows [Version 10.0.19044.1620]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\> git --version
+git version 2.46.0.windows.1
+
+
+C:\>git clone https://github.com/Drashti33/TOPS-Work-.git
+Cloning into 'TOPS-Work-'...
+warning: You appear to have cloned an empty repository.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 0614-47C5
+
+ Directory of C:\
+
+26-Mar-22  04:03 PM    <DIR>          Intel
+31-Oct-21  09:35 AM    <DIR>          MinGW
+07-Dec-19  02:44 PM    <DIR>          PerfLogs
+12-Sep-24  08:43 AM    <DIR>          Program Files
+11-Nov-23  10:24 PM    <DIR>          Program Files (x86)
+26-Mar-22  06:17 PM    <DIR>          sdk
+26-Mar-22  06:05 PM    <DIR>          SWSetup
+12-Sep-24  09:03 AM    <DIR>          TOPS-Work-
+17-Jul-22  11:53 AM    <DIR>          TURBOC3
+26-Mar-22  04:06 PM    <DIR>          Users
+27-Jul-24  05:01 PM    <DIR>          Windows
+28-Mar-22  08:38 PM    <DIR>          xampp
+               0 File(s)              0 bytes
+              12 Dir(s)  85,931,823,104 bytes free
+
+
+C:\>cd TOPS-Work-
+
+C:\TOPS-Work->
+C:\TOPS-Work->git config --global user.name "Drashti33"
+
+C:\TOPS-Work->git config --global user.email "drashtimodi33@gmail.com"
+
+C:\TOPS-Work->git starus
+git: 'starus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\TOPS-Work->git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+
+C:\TOPS-Work->git add "Demo.txt"
+
+
+C:\TOPS-Work->git commit -m "add demo"
+[main (root-commit) eed4395] add demo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Demo.txt
+
+
+C:\TOPS-Work->git push
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 72.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Drashti33/TOPS-Work-.git
+ * [new branch]      main -> main
+
+C:\TOPS-Work->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19044.1620]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\SE_ASS_1>git add .
+
+C:\SE_ASS_1>git commit -m "basic"
+[main 1a481af] basic
+ 67 files changed, 647 insertions(+)
+ rename Assignment_1.pdf => Assignment/Assignment_1.pdf (100%)
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q1.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q1.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q10.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q10.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q11.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q11.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q12.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q12.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q13.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q13.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q14.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q14.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q15.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q15.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q16.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q16.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q17.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q17.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q18.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q18.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q19.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q19.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q2.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q2.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q20.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q20.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q21.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q21.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q22.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q22.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q23.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q23.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q24.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q24.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q25.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q25.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q26.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q26.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q27.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q27.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q28.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q28.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q29.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q29.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q3.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q3.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q30.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q30.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q31.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q31.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q32.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q32.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q33.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q33.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q4.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q4.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q5.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q5.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q6.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q6.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q7.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q7.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q8.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q8.exe
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q9.c
+ create mode 100644 Assignment/CProgram/Basic_Syntax/Q9.exe
+
+C:\SE_ASS_1>git push
+Enumerating objects: 72, done.
+Counting objects: 100% (72/72), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (69/69), done.
+Writing objects: 100% (71/71), 728.99 KiB | 1.07 MiB/s, done.
+Total 71 (delta 34), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (34/34), done.
+To https://github.com/Drashtimodi12/SE_ASS_1.git
+   79a4f01..1a481af  main -> main
+
+C:\SE_ASS_1>
